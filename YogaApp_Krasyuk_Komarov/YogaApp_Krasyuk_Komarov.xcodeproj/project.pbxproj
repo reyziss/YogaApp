@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6E5896278EB1A9005FAEA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E5895278EB1A9005FAEA2 /* AppDelegate.swift */; };
+		3F6E5898278EB1A9005FAEA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E5897278EB1A9005FAEA2 /* SceneDelegate.swift */; };
+		3F6E589A278EB1A9005FAEA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E5899278EB1A9005FAEA2 /* ViewController.swift */; };
+		3F6E589D278EB1A9005FAEA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E589B278EB1A9005FAEA2 /* Main.storyboard */; };
+		3F6E589F278EB1AA005FAEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E589E278EB1AA005FAEA2 /* Assets.xcassets */; };
+		3F6E58A2278EB1AA005FAEA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E58A0278EB1AA005FAEA2 /* LaunchScreen.storyboard */; };
+		3F6E58A7278EB1AA005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F6E58A6278EB1AA005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F6E58AD278EB1AA005FAEA2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E58AB278EB1AA005FAEA2 /* Interface.storyboard */; };
+		3F6E58AF278EB1AB005FAEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E58AE278EB1AB005FAEA2 /* Assets.xcassets */; };
+		3F6E58B5278EB1AB005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F6E58B4278EB1AB005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F6E58BA278EB1AB005FAEA2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E58B9278EB1AB005FAEA2 /* InterfaceController.swift */; };
+		3F6E58BC278EB1AB005FAEA2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E58BB278EB1AB005FAEA2 /* ExtensionDelegate.swift */; };
+		3F6E58BE278EB1AB005FAEA2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E58BD278EB1AB005FAEA2 /* NotificationController.swift */; };
+		3F6E58C0278EB1AB005FAEA2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E58BF278EB1AB005FAEA2 /* ComplicationController.swift */; };
+		3F6E58C2278EB1AC005FAEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E58C1278EB1AC005FAEA2 /* Assets.xcassets */; };
+		3F6E58D3278EBA9A005FAEA2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E58D2278EBA9A005FAEA2 /* TableViewController.swift */; };
+		3FEE4A3C2795980400037CCA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE4A3B2795980400037CCA /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F6E58A8278EB1AA005FAEA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6E588A278EB1A8005FAEA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6E58A5278EB1AA005FAEA2;
+			remoteInfo = "YogaApp_Krasyuk_Komarov WatchKit App";
+		};
+		3F6E58B6278EB1AB005FAEA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6E588A278EB1A8005FAEA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6E58B3278EB1AB005FAEA2;
+			remoteInfo = "YogaApp_Krasyuk_Komarov WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F6E58CA278EB1AC005FAEA2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F6E58B5278EB1AB005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6E58CE278EB1AC005FAEA2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F6E58A7278EB1AA005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F6E5892278EB1A9005FAEA2 /* YogaApp_Krasyuk_Komarov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaApp_Krasyuk_Komarov.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6E5895278EB1A9005FAEA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F6E5897278EB1A9005FAEA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F6E5899278EB1A9005FAEA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F6E589C278EB1A9005FAEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F6E589E278EB1AA005FAEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6E58A1278EB1AA005FAEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F6E58A3278EB1AA005FAEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6E58A6278EB1AA005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YogaApp_Krasyuk_Komarov WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6E58AC278EB1AA005FAEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3F6E58AE278EB1AB005FAEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6E58B4278EB1AB005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YogaApp_Krasyuk_Komarov WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6E58B9278EB1AB005FAEA2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3F6E58BB278EB1AB005FAEA2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3F6E58BD278EB1AB005FAEA2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3F6E58BF278EB1AB005FAEA2 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3F6E58C1278EB1AC005FAEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6E58C3278EB1AC005FAEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6E58C4278EB1AC005FAEA2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3F6E58D2278EBA9A005FAEA2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3FEE4A3B2795980400037CCA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6E588F278EB1A9005FAEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6E58B1278EB1AB005FAEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6E5889278EB1A8005FAEA2 = {
+			isa = PBXGroup;
+			children = (
+				3F6E5894278EB1A9005FAEA2 /* YogaApp_Krasyuk_Komarov */,
+				3F6E58AA278EB1AA005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit App */,
+				3F6E58B8278EB1AB005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit Extension */,
+				3F6E5893278EB1A9005FAEA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6E5893278EB1A9005FAEA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E5892278EB1A9005FAEA2 /* YogaApp_Krasyuk_Komarov.app */,
+				3F6E58A6278EB1AA005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit App.app */,
+				3F6E58B4278EB1AB005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6E5894278EB1A9005FAEA2 /* YogaApp_Krasyuk_Komarov */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E58D2278EBA9A005FAEA2 /* TableViewController.swift */,
+				3F6E5895278EB1A9005FAEA2 /* AppDelegate.swift */,
+				3F6E5897278EB1A9005FAEA2 /* SceneDelegate.swift */,
+				3F6E5899278EB1A9005FAEA2 /* ViewController.swift */,
+				3F6E589B278EB1A9005FAEA2 /* Main.storyboard */,
+				3F6E589E278EB1AA005FAEA2 /* Assets.xcassets */,
+				3F6E58A0278EB1AA005FAEA2 /* LaunchScreen.storyboard */,
+				3F6E58A3278EB1AA005FAEA2 /* Info.plist */,
+				3FEE4A3B2795980400037CCA /* TableViewCell.swift */,
+			);
+			path = YogaApp_Krasyuk_Komarov;
+			sourceTree = "<group>";
+		};
+		3F6E58AA278EB1AA005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E58AB278EB1AA005FAEA2 /* Interface.storyboard */,
+				3F6E58AE278EB1AB005FAEA2 /* Assets.xcassets */,
+			);
+			path = "YogaApp_Krasyuk_Komarov WatchKit App";
+			sourceTree = "<group>";
+		};
+		3F6E58B8278EB1AB005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E58B9278EB1AB005FAEA2 /* InterfaceController.swift */,
+				3F6E58BB278EB1AB005FAEA2 /* ExtensionDelegate.swift */,
+				3F6E58BD278EB1AB005FAEA2 /* NotificationController.swift */,
+				3F6E58BF278EB1AB005FAEA2 /* ComplicationController.swift */,
+				3F6E58C1278EB1AC005FAEA2 /* Assets.xcassets */,
+				3F6E58C3278EB1AC005FAEA2 /* Info.plist */,
+				3F6E58C4278EB1AC005FAEA2 /* PushNotificationPayload.apns */,
+			);
+			path = "YogaApp_Krasyuk_Komarov WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6E5891278EB1A9005FAEA2 /* YogaApp_Krasyuk_Komarov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6E58CF278EB1AC005FAEA2 /* Build configuration list for PBXNativeTarget "YogaApp_Krasyuk_Komarov" */;
+			buildPhases = (
+				3F6E588E278EB1A9005FAEA2 /* Sources */,
+				3F6E588F278EB1A9005FAEA2 /* Frameworks */,
+				3F6E5890278EB1A9005FAEA2 /* Resources */,
+				3F6E58CE278EB1AC005FAEA2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6E58A9278EB1AA005FAEA2 /* PBXTargetDependency */,
+			);
+			name = YogaApp_Krasyuk_Komarov;
+			productName = YogaApp_Krasyuk_Komarov;
+			productReference = 3F6E5892278EB1A9005FAEA2 /* YogaApp_Krasyuk_Komarov.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F6E58A5278EB1AA005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6E58CB278EB1AC005FAEA2 /* Build configuration list for PBXNativeTarget "YogaApp_Krasyuk_Komarov WatchKit App" */;
+			buildPhases = (
+				3F6E58A4278EB1AA005FAEA2 /* Resources */,
+				3F6E58CA278EB1AC005FAEA2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6E58B7278EB1AB005FAEA2 /* PBXTargetDependency */,
+			);
+			name = "YogaApp_Krasyuk_Komarov WatchKit App";
+			productName = "YogaApp_Krasyuk_Komarov WatchKit App";
+			productReference = 3F6E58A6278EB1AA005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3F6E58B3278EB1AB005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6E58C7278EB1AC005FAEA2 /* Build configuration list for PBXNativeTarget "YogaApp_Krasyuk_Komarov WatchKit Extension" */;
+			buildPhases = (
+				3F6E58B0278EB1AB005FAEA2 /* Sources */,
+				3F6E58B1278EB1AB005FAEA2 /* Frameworks */,
+				3F6E58B2278EB1AB005FAEA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YogaApp_Krasyuk_Komarov WatchKit Extension";
+			productName = "YogaApp_Krasyuk_Komarov WatchKit Extension";
+			productReference = 3F6E58B4278EB1AB005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6E588A278EB1A8005FAEA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3F6E5891278EB1A9005FAEA2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3F6E58A5278EB1AA005FAEA2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3F6E58B3278EB1AB005FAEA2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F6E588D278EB1A8005FAEA2 /* Build configuration list for PBXProject "YogaApp_Krasyuk_Komarov" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F6E5889278EB1A8005FAEA2;
+			productRefGroup = 3F6E5893278EB1A9005FAEA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6E5891278EB1A9005FAEA2 /* YogaApp_Krasyuk_Komarov */,
+				3F6E58A5278EB1AA005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit App */,
+				3F6E58B3278EB1AB005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6E5890278EB1A9005FAEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6E58A2278EB1AA005FAEA2 /* LaunchScreen.storyboard in Resources */,
+				3F6E589F278EB1AA005FAEA2 /* Assets.xcassets in Resources */,
+				3F6E589D278EB1A9005FAEA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6E58A4278EB1AA005FAEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6E58AF278EB1AB005FAEA2 /* Assets.xcassets in Resources */,
+				3F6E58AD278EB1AA005FAEA2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6E58B2278EB1AB005FAEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6E58C2278EB1AC005FAEA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6E588E278EB1A9005FAEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEE4A3C2795980400037CCA /* TableViewCell.swift in Sources */,
+				3F6E589A278EB1A9005FAEA2 /* ViewController.swift in Sources */,
+				3F6E5896278EB1A9005FAEA2 /* AppDelegate.swift in Sources */,
+				3F6E5898278EB1A9005FAEA2 /* SceneDelegate.swift in Sources */,
+				3F6E58D3278EBA9A005FAEA2 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6E58B0278EB1AB005FAEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6E58BE278EB1AB005FAEA2 /* NotificationController.swift in Sources */,
+				3F6E58C0278EB1AB005FAEA2 /* ComplicationController.swift in Sources */,
+				3F6E58BC278EB1AB005FAEA2 /* ExtensionDelegate.swift in Sources */,
+				3F6E58BA278EB1AB005FAEA2 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F6E58A9278EB1AA005FAEA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6E58A5278EB1AA005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit App */;
+			targetProxy = 3F6E58A8278EB1AA005FAEA2 /* PBXContainerItemProxy */;
+		};
+		3F6E58B7278EB1AB005FAEA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6E58B3278EB1AB005FAEA2 /* YogaApp_Krasyuk_Komarov WatchKit Extension */;
+			targetProxy = 3F6E58B6278EB1AB005FAEA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F6E589B278EB1A9005FAEA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6E589C278EB1A9005FAEA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F6E58A0278EB1AA005FAEA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6E58A1278EB1AA005FAEA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F6E58AB278EB1AA005FAEA2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6E58AC278EB1AA005FAEA2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F6E58C5278EB1AC005FAEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F6E58C6278EB1AC005FAEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3F6E58C8278EB1AC005FAEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YogaApp_Krasyuk_Komarov WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YogaApp_Krasyuk_Komarov WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.Krasyuk-Komarov.YogaApp-Krasyuk-Komarov.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3F6E58C9278EB1AC005FAEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YogaApp_Krasyuk_Komarov WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YogaApp_Krasyuk_Komarov WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.Krasyuk-Komarov.YogaApp-Krasyuk-Komarov.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3F6E58CC278EB1AC005FAEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = YogaApp_Krasyuk_Komarov_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "YogaApp_Krasyuk_Komarov WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "ru.Krasyuk-Komarov.YogaApp-Krasyuk-Komarov";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.Krasyuk-Komarov.YogaApp-Krasyuk-Komarov.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3F6E58CD278EB1AC005FAEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = YogaApp_Krasyuk_Komarov_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "YogaApp_Krasyuk_Komarov WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "ru.Krasyuk-Komarov.YogaApp-Krasyuk-Komarov";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.Krasyuk-Komarov.YogaApp-Krasyuk-Komarov.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3F6E58D0278EB1AC005FAEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaApp_Krasyuk_Komarov/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.Krasyuk-Komarov.YogaApp-Krasyuk-Komarov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F6E58D1278EB1AC005FAEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaApp_Krasyuk_Komarov/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.Krasyuk-Komarov.YogaApp-Krasyuk-Komarov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6E588D278EB1A8005FAEA2 /* Build configuration list for PBXProject "YogaApp_Krasyuk_Komarov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6E58C5278EB1AC005FAEA2 /* Debug */,
+				3F6E58C6278EB1AC005FAEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6E58C7278EB1AC005FAEA2 /* Build configuration list for PBXNativeTarget "YogaApp_Krasyuk_Komarov WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6E58C8278EB1AC005FAEA2 /* Debug */,
+				3F6E58C9278EB1AC005FAEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6E58CB278EB1AC005FAEA2 /* Build configuration list for PBXNativeTarget "YogaApp_Krasyuk_Komarov WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6E58CC278EB1AC005FAEA2 /* Debug */,
+				3F6E58CD278EB1AC005FAEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6E58CF278EB1AC005FAEA2 /* Build configuration list for PBXNativeTarget "YogaApp_Krasyuk_Komarov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6E58D0278EB1AC005FAEA2 /* Debug */,
+				3F6E58D1278EB1AC005FAEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F6E588A278EB1A8005FAEA2 /* Project object */;
+}
